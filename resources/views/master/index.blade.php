@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bonativo Free HTML5 Responsive Template | Template Stock</title>
+        <title>Profil Kelurahan Sempaja Utara</title>
 
         <!-- Bootstrap -->
         <link href="{{ asset('asset/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -33,7 +33,7 @@
 
 
         <!-- Static navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top before-color">
+        <nav class="navbar navbar-default navbar-fixed-top ">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
@@ -42,24 +42,27 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand alo" href="index.html">Bonativo</a>
+
+                    <a class="navbar-brand alo" href="index.html">Samarinda</a>
+                    {{-- <a class="navbar-brand alo" href="index.html"><img src="{{ asset('asset/images/logo-sht.png') }}" alt=""></a> --}}
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right scroll-to">
                         <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="post-single.html">Blog Post</a></li>                      
+                        <li><a href="#about">Profil</a></li>
+                        <li><a href="#services">Visi Misi</a></li>
+                        <li><a href="#work">Struktur Organisasi</a></li>
+                        <li><a href="#blog">Berita</a></li>
+
+                        {{-- <li><a href="post-single.html">Blog Post</a></li>                       --}}
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Pages <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Data <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="typography.html">Typography</a></li>
-                                
+                                <li><a href="{{ asset('asset/typography.html') }}">Data Umum</a></li>
+                                <li><a href=""></a>Data Kelembagaan</li>
                             </ul>
-                        </li>
-                        <li><a href="#contact">Contact</a></li>
+                        </li> 
+                        <li><a href="#contact">Kontak</a></li>
 
                     </ul>
                 </div><!--/.nav-collapse -->
@@ -73,41 +76,41 @@
                     <!-- SLIDE 1 -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('asset/images/bg-1.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="{{ asset('asset/images/foto/2.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
-                        <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
-                            welcome to <span>Bonativo</span>
+                        <div class="tp-caption slider-title text-primary" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut" >
+                            Selamat Datang
                         </div> <!-- /tp-caption -->
                         <!-- LAYER NR. 2 -->
-                        <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit aute irure
+                        <div class="tp-caption slider-caption " data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            Profil Kelurahan Sempaja Utara
                         </div> <!-- /tp-caption -->
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
-                            <a class="btn btn-white" href="#about">See more</a>
+                            <a class="btn btn-white" href="#about">lihat</a>
                         </div> <!-- /tp-caption -->
                     </li>
                     <!-- SLIDE 2 -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('asset/images/bg-3.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="{{ asset('asset/images/foto/3.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
-                            Modern <span>Agency</span>
+                            Selamat Datang 
                         </div> <!-- /tp-caption -->
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit aute irure
+                            Profil Kelurahan Sempaja Utara
                         </div> <!-- /tp-caption -->
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
-                            <a class="btn btn-white" href="#about">See more</a>
+                            <a class="btn btn-white" href="#about">lihat</a>
                         </div> <!-- /tp-caption -->
                     </li>
                     <!-- SLIDE 3 -->
@@ -124,10 +127,10 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 text-center">
                         <div class="section-title">
-                            <h1>modern <span class="alo">Digital agency</span></h1> 
+                            <h1>Profil <span class="alo">Singkat</span></h1> 
                             <span class="border-line"></span>
                             <p class="lead subtitle-caption">
-                                we are a creative agency located in <span class="colored-text">sydney, australia.</span> It is a long established fact that a reader will be distracted by the readable content.
+                                Sempaja Utara adalah salah satu kelurahan di Kecamatan Samarinda Utara, <span class="colored-text">Kota Samarinda</span>, Provinsi Kalimantan Timur, Indonesia.
                             </p>
                         </div>
                     </div>
@@ -138,12 +141,12 @@
                         <div class="feature-icon-wrap clearfix">
                             <div class="left-side-icon">
                                 <i class="ion-ios-lightbulb-outline front-icon"></i>
-                                <i class="ion-ios-lightbulb-outline back-icon"></i>
+                                {{-- <i class="ion-ios-lightbulb-outline back-icon"></i> --}}
                             </div>
                             <div class="features-text-right">
-                                <h3>creative Designs</h3>                         
-                                <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
+                                <h3>Geografi</h3>                         
+                                <p style="font-family:Noto Sans">
+                                    Kelurahan Sempaja Utara memiliki luas 45,33 km² atau 19,75% dari luas wilayah Kecamatan Samarinda Utara. Kelurahan ini dibagi menjadi 43 Rukun Tetangga (RT).
                                 </p>
                             </div>
                         </div><!--features icon wrap-->
@@ -151,30 +154,56 @@
                     <div class="col-sm-6 margin-bottom30">
                         <div class="feature-icon-wrap clearfix">
                             <div class="left-side-icon">
-                                <i class="ion-ios-gear-outline front-icon"></i>
-                                <i class="ion-ios-gear-outline back-icon"></i>
+                                <i class="ion-iphone front-icon"></i>
+                                {{-- <i class="ion-iphone back-icon"></i> --}}
                             </div>
                             <div class="features-text-right">
-                                <h3>Great support</h3>                         
-                                <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
+                                <h3>Batas wilayah</h3>                         
+                                <p style="font-family:Noto Sans">
+                                    Batas Wilayah Kelurahan Sempaja Utara adalah sebagai berikut :
+                                    <table class="table">
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>Utara</td>
+                                            <td>Kecamatan Tenggarong Seberang dan Kelurahan Budaya Pampang</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">2</th>
+                                            <td>Timur</td>
+                                            <td>Kelurahan Lempake</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">3</th>
+                                            <td>Selatan</td>
+                                            <td>Kelurahan Sempaja Timur dan Sempaja Barat</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">4</th>
+                                            <td>Barat</td>
+                                            <td>Kelurahan Bukit Pinang</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
                                 </p>
                             </div>
                         </div><!--features icon wrap-->
                     </div><!--features col-->
+                    
+                    
                 </div><!--row-->
                 <div class="row">
                     <div class="col-sm-6 margin-bottom30">
                         <div class="feature-icon-wrap clearfix">
                             <div class="left-side-icon">
-                                <i class="ion-iphone front-icon"></i>
-                                <i class="ion-iphone back-icon"></i>
+                                <i class="ion-ios-lightbulb-outline front-icon"></i>
+                                {{-- <i class="ion-ios-lightbulb-outline back-icon"></i> --}}
                             </div>
                             <div class="features-text-right">
-                                <h3>Fully Responsive</h3>                         
-                                <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
-                                </p>
+                                <h3>tempat-tempat Penting</h3>                         
+                                <p>● Museum and Gallery Batu Cermin</p>
+                                <p>● Air Terjun Berambai</p>
+                                <p>● Air Terjun Pinang Seribu</p>
                             </div>
                         </div><!--features icon wrap-->
                     </div><!--features col-->
@@ -182,12 +211,12 @@
                         <div class="feature-icon-wrap clearfix">
                             <div class="left-side-icon">
                                 <i class="ion-ios-people-outline front-icon"></i>
-                                <i class="ion-ios-people-outline back-icon"></i>
+                                {{-- <i class="ion-ios-people-outline back-icon"></i> --}}
                             </div>
                             <div class="features-text-right">
-                                <h3>Dedicated Team</h3>                         
+                                <h3>Tipologi Kelurahan</h3>                         
                                 <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
+                                    Persawahan, Perladangan, Perkebunan, Perternakan, Pertambangan, Jasa & Perdagangan
                                 </p>
                             </div>
                         </div><!--features icon wrap-->
