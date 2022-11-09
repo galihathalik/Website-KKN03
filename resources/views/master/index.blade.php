@@ -51,7 +51,7 @@
                         <li class="active"><a href="#home">Home</a></li>
                         <li><a href="#about">Profil</a></li>
                         <li><a href="#services">Visi Misi</a></li>
-                        <li><a href="#work">Struktur Organisasi</a></li>
+                        <li><a href="#struktur">Struktur Organisasi</a></li>
                         <li><a href="#blog">Berita</a></li>
 
                         {{-- <li><a href="post-single.html">Blog Post</a></li>                       --}}
@@ -59,7 +59,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Data <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="{{ asset('asset/typography.html') }}">Data Umum</a></li>
-                                <li><a href=""></a>Data Kelembagaan</li>
+                                <li><a href="{{ asset('asset/typography.html') }}">Data Kelembagaan</a></li>
                             </ul>
                         </li> 
                         <li><a href="#contact">Kontak</a></li>
@@ -154,6 +154,21 @@
                     <div class="col-sm-6 margin-bottom30">
                         <div class="feature-icon-wrap clearfix">
                             <div class="left-side-icon">
+                                <i class="ion-ios-lightbulb-outline front-icon"></i>
+                                {{-- <i class="ion-ios-lightbulb-outline back-icon"></i> --}}
+                            </div>
+                            <div class="features-text-right">
+                                <h3>Sejarah</h3>                         
+                                <p>Pada Tahun 1995 Kelurahan Sempaja Utara bernama Kelurahan Sempaja dibawah wilayah kerja Kecamatan Samarinda Utara, dan pada tanggal 06 Juni 1996 dimekarkan oleh Pemerintah Kota menjadi Kelurahan Sempaja Utara yang diresmikan oleh Bapak Walikota Drs. H. Achmad Amins, MM.</p>
+                            </div>
+                        </div><!--features icon wrap-->
+                    </div><!--features col-->
+                </div><!--row-->
+                <div class="row">
+                    
+                    <div class="col-sm-6 margin-bottom30">
+                        <div class="feature-icon-wrap clearfix">
+                            <div class="left-side-icon">
                                 <i class="ion-iphone front-icon"></i>
                                 {{-- <i class="ion-iphone back-icon"></i> --}}
                             </div>
@@ -189,24 +204,6 @@
                             </div>
                         </div><!--features icon wrap-->
                     </div><!--features col-->
-                    
-                    
-                </div><!--row-->
-                <div class="row">
-                    <div class="col-sm-6 margin-bottom30">
-                        <div class="feature-icon-wrap clearfix">
-                            <div class="left-side-icon">
-                                <i class="ion-ios-lightbulb-outline front-icon"></i>
-                                {{-- <i class="ion-ios-lightbulb-outline back-icon"></i> --}}
-                            </div>
-                            <div class="features-text-right">
-                                <h3>tempat-tempat Penting</h3>                         
-                                <p>● Museum and Gallery Batu Cermin</p>
-                                <p>● Air Terjun Berambai</p>
-                                <p>● Air Terjun Pinang Seribu</p>
-                            </div>
-                        </div><!--features icon wrap-->
-                    </div><!--features col-->
                     <div class="col-sm-6 margin-bottom30">
                         <div class="feature-icon-wrap clearfix">
                             <div class="left-side-icon">
@@ -228,127 +225,131 @@
         <div class="funfacts parallax-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3 margin-bottom30 text-center">
+                    <div class="col-sm-4 margin-bottom30 text-center">
                         <div class="fact-box">
-                            <h2>654</h2>                          
-                            <h5>Happy Clients</h5>
+                            <h3>45,33 km²</h3>                          
+                            <h5>Luas</h5>
                             <span class="border-line"></span>
                         </div>
                     </div><!--fact cols-->
-                    <div class="col-sm-3 margin-bottom30 text-center">
+                    <div class="col-sm-4 margin-bottom30 text-center">
                         <div class="fact-box">
-                            <h2>832</h2>                          
-                            <h5>Projects finish</h5>
+                            <h3>21.369 jiwa</h3>                          
+                            <h5>Jumlah Penduduk</h5>
                             <span class="border-line"></span>
                         </div>
                     </div><!--fact cols-->
-                    <div class="col-sm-3 margin-bottom30 text-center">
+                    <div class="col-sm-4 margin-bottom30 text-center">
                         <div class="fact-box">
-                            <h2>800</h2>                          
-                            <h5>Pizza ordered </h5>
+                            <h3>471,7 jiwa/km²</h3>                          
+                            <h5>Kepadatan </h5>
                             <span class="border-line"></span>
                         </div>
                     </div><!--fact cols-->
-                    <div class="col-sm-3 margin-bottom30 text-center">
+                    {{-- <div class="col-sm-3 margin-bottom30 text-center">
                         <div class="fact-box">
                             <h2>750</h2>                          
                             <h5>Cups of coffee</h5>
                             <span class="border-line"></span>
                         </div>
-                    </div><!--fact cols-->
+                    </div><!--fact cols--> --}}
 
                 </div>
             </div>
         </div>
-        <div class="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <div class="section-title text-center">
-                            <h1> <span class="alo">Bonativo</span> team</h1> 
-                            <span class="border-line"></span>
-                            <p class="lead subtitle-caption">
-                                Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
-                            </p>
+        {{-- <section id="about" class="section-padding"> --}}
+        <section id="struktur" class="section-padding">
+            <div class="team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <div class="section-title text-center">
+                                <h1> <span class="alo">Struktur Organisasi</span></h1> 
+                                <span class="border-line"></span>
+                                <p class="lead subtitle-caption">
+                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
+                                </p>
+                            </div>
                         </div>
                     </div>
+                    <div class="row">
+    
+                        <div class="col-sm-4 margin-bottom30">
+                            <div class="team-box">
+                                <img src="{{ asset('asset/images/foto/4.jpg') }}" class="img-responsive" alt="">
+    
+                                {{-- <ul class="social list-inline">
+                                    <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
+                                </ul> --}}
+                            </div>
+                            <div class="team-desc">
+                                <h4>DZULKIFLI, S.Sos</h4>
+                                <em>Lurah</em>
+                            </div>
+                        </div><!--team col end-->
+                        <div class="col-sm-4 margin-bottom30">
+                            <div class="team-box">
+                                <img src="{{ asset('asset/images/foto/5.jpg') }}" class="img-responsive" alt="">                       
+                                {{-- <ul class="social list-inline">
+                                    <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
+                                </ul> --}}
+                            </div>
+                            <div class="team-desc">
+                                <h4>HJ.ARBAYAH</h4>
+                                <em>Bendahara</em>
+                            </div>
+                        </div><!--team col end-->
+                        <div class="col-sm-4 margin-bottom30">
+                            <div class="team-box">
+                                <img src="{{ asset('asset/images/team-3.jpg') }}" class="img-responsive" alt="">                     
+                                {{-- <ul class="social list-inline">
+                                    <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
+                                </ul> --}}
+                            </div>
+                            <div class="team-desc">
+                                <h4>Daniel Smith</h4>
+                                <em>Manager</em>
+                            </div>
+                        </div><!--team col end-->
+                        
+                    </div>
                 </div>
-                <div class="row">
-
-                    <div class="col-sm-4 margin-bottom30">
-                        <div class="team-box">
-                            <img src="images/team-1.jpg" class="img-responsive" alt="">
-
-                            <ul class="social list-inline">
-                                <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-desc">
-                            <h4>Daniel Smith</h4>
-                            <em>Manager</em>
-                        </div>
-                    </div><!--team col end-->
-                    <div class="col-sm-4 margin-bottom30">
-                        <div class="team-box">
-                            <img src="{{ asset('asset/images/team-2.jpg') }}" class="img-responsive" alt="">                       
-                            <ul class="social list-inline">
-                                <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-desc">
-                            <h4>Daniel Smith</h4>
-                            <em>Manager</em>
-                        </div>
-                    </div><!--team col end-->
-                    <div class="col-sm-4 margin-bottom30">
-                        <div class="team-box">
-                            <img src="{{ asset('asset/images/team-3.jpg') }}" class="img-responsive" alt="">                     
-                            <ul class="social list-inline">
-                                <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-desc">
-                            <h4>Daniel Smith</h4>
-                            <em>Manager</em>
-                        </div>
-                    </div><!--team col end-->
-                </div>
-            </div>
-        </div><!--team section end-->
+            </div><!--team section end-->
+        </section>
+        
         <section id="services" class="section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 text-center">
                         <div class="section-title">
-                            <h1>Our <span class="colored-text">Services</span></h1> 
-                            <span class="border-line"></span>
-                            <p class="lead subtitle-caption">
-                                Why you choose <span class="colored-text">Bonativo</span>
-                            </p>
+                            <h1>Visi <span class="colored-text">Misi</span></h1> 
+                            <span class="border-line"></span>   
                         </div>
                     </div>
                 </div><!-- title row end-->
-                <div class="row">
-                    <div class="col-sm-6 margin-bottom30">
+                <div class="row ">
+                    <div class="col-sm-2"></div><!--services col-->
+                    <div class="col-sm-10">
                         <div class="feature-icon-wrap services-icons clearfix">
                             <div class="left-side-icon">
                                 <i class="ion-ios-paperplane-outline front-icon"></i>
                             </div>
                             <div class="features-text-right">
-                                <h3>Marketing</h3>                         
+                                <h3>Visi</h3>                         
                                 <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
+                                    Pembangunan Yang Terkoordinasi Dalam Mewujudkan Pelayanan Prima
                                 </p>
                             </div>
                         </div>
-                    </div><!--services col-->
-                    <div class="col-sm-6 margin-bottom30">
+                    </div>
+                    {{-- <div class="col-sm-4"></div> --}}
+                    {{-- <div class="col-sm-6 margin-bottom30">
                         <div class="feature-icon-wrap services-icons clearfix">
                             <div class="left-side-icon">
                                 <i class="ion-ios-browsers-outline front-icon"></i>
@@ -360,64 +361,40 @@
                                 </p>
                             </div>
                         </div>
-                    </div><!--services col-->
+                    </div><!--services col--> --}}
                 </div><!--services row-->
                 <div class="row">
-                    <div class="col-sm-6 margin-bottom30">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
                         <div class="feature-icon-wrap services-icons clearfix">
                             <div class="left-side-icon">
                                 <i class="ion-ios-world-outline front-icon"></i>
                             </div>
                             <div class="features-text-right">
-                                <h3>Social Media</h3>                         
+                                <h3>Misi</h3>                         
                                 <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
+                                    1. Meningkatkan Sistem Perencanaan Pembangunan Yang Baik Dengan Melibatkan Partisipasi Masyarakat Yang Aktif Dan Mandiri
+                                </p>
+                                <p>
+                                    2. Meningkatkan Layanan Prima Kepada Masyarakat
+                                </p>
+                                <p>
+                                    3. Meningkatkan Kualitas Sumber Daya Manusia (Sdm) Aparat Kelurahan
+                                </p>
+                                <p>
+                                    4. Mewujudkan Lingkungan Yang Hijau, Bersih Dan Sehat
+                                </p>
+                                <p>
+                                    5. Menciptakan Kondisi Wilayah Yang Aman Dan Tentram
                                 </p>
                             </div>
                         </div>
-                    </div><!--services col-->
-                    <div class="col-sm-6 margin-bottom30">
-                        <div class="feature-icon-wrap services-icons clearfix">
-                            <div class="left-side-icon">
-                                <i class="ion-ios-color-wand-outline front-icon"></i>
-                            </div>
-                            <div class="features-text-right">
-                                <h3>Creative ideas</h3>                         
-                                <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--services col-->
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <!--services col-->
+                    
                 </div><!--services row-->
-                <div class="row">
-                    <div class="col-sm-6 margin-bottom30">
-                        <div class="feature-icon-wrap services-icons clearfix">
-                            <div class="left-side-icon">
-                                <i class="ion-ios-crop front-icon"></i>
-                            </div>
-                            <div class="features-text-right">
-                                <h3>Responsive Design</h3>                         
-                                <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--services col-->
-                    <div class="col-sm-6 margin-bottom30">
-                        <div class="feature-icon-wrap services-icons clearfix">
-                            <div class="left-side-icon">
-                                <i class="ion-ios-people-outline front-icon"></i>
-                            </div>
-                            <div class="features-text-right">
-                                <h3>Customer Support</h3>                         
-                                <p>
-                                    Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--services col-->
-                </div><!--services row-->
+                
             </div>
         </section><!--services section end-->
         <div class="testimonials parallax-2">
@@ -459,207 +436,6 @@
                 </div>
             </div>
         </div><!--testimonials-->
-        <div class="price-tables section-padding">
-            <div class="container">
-                  <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2 text-center">
-                        <div class="section-title">
-                            <h1>Our <span class="colored-text">Pricing</span></h1> 
-                            <span class="border-line"></span>
-                            <p class="lead subtitle-caption">
-                                 Vivamus congue diam vitae tortor imperdiet congue.
-                            </p>
-                        </div>
-                    </div>
-                </div><!-- title row end-->
-                <div class="row">
-                    <div class="col-sm-4 margin-bottom30">
-                        <div class="price-box text-center">
-                            <div class="header ">
-                                <h3>Standard</h3>
-                                <div class="price">
-                                    <h2>$3.99</h2>
-                                    <span>Start price / month</span>
-                                </div>
-                            </div>
-                            <ul class="list-unstyled">
-                                <li>10 GB Storage Space</li>
-                                <li>50 GB Bandwidth</li>
-                                <li>Unlimited Users</li>
-                                <li>No Time Tracking</li>
-                                <li>Enhanced Security</li>
-                            </ul>
-                            <div class="price-footer">
-                                <h4><a href="#" class="btn btn-border-black">Buy Now</a></h4>
-                            </div>
-                        </div>
-                    </div><!--price col-->
-                     <div class="col-sm-4 margin-bottom30">
-                        <div class="price-box text-center">
-                            <div class="header active">
-                                <h3>Standard</h3>
-                                <div class="price">
-                                    <h2>$3.99</h2>
-                                    <span>Start price / month</span>
-                                </div>
-                            </div>
-                            <ul class="list-unstyled">
-                                <li>10 GB Storage Space</li>
-                                <li>50 GB Bandwidth</li>
-                                <li>Unlimited Users</li>
-                                <li>No Time Tracking</li>
-                                <li>Enhanced Security</li>
-                            </ul>
-                            <div class="price-footer">
-                                <h4><a href="#" class="btn btn-border-theme">Buy Now</a></h4>
-                            </div>
-                        </div>
-                    </div><!--price col-->
-                     <div class="col-sm-4 margin-bottom30">
-                        <div class="price-box text-center">
-                            <div class="header">
-                                <h3>Standard</h3>
-                                <div class="price">
-                                    <h2>$3.99</h2>
-                                    <span>Start price / month</span>
-                                </div>
-                            </div>
-                            <ul class="list-unstyled">
-                                <li>10 GB Storage Space</li>
-                                <li>50 GB Bandwidth</li>
-                                <li>Unlimited Users</li>
-                                <li>No Time Tracking</li>
-                                <li>Enhanced Security</li>
-                            </ul>
-                            <div class="price-footer">
-                                <h4><a href="#" class="btn btn-border-black">Buy Now</a></h4>
-                            </div>
-                        </div>
-                    </div><!--price col-->
-                </div>
-            </div>
-        </div><!--pricing-->
-        <div class="cta cta-bg">
-            <div class="container text-center scroll-to">
-                <h1>WE'VE GOT PLENTY MORE TO SAY</h1>
-                <a href="#contact" class="btn btn-white btn-radius btn-lg">Let's talk</a>
-            </div>
-        </div><!--call to action-->
-
-        <section id="work" class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <div class="section-title text-center">
-                            <h1> <span class="alo">Bonativo</span> Portfolio</h1> 
-                            <span class="border-line"></span>
-                            <p class="lead subtitle-caption">
-                                Vivamus congue diam vitae tortor imperdiet congue.
-                            </p>
-                        </div>
-                    </div>
-                </div><!--heading row-->
-
-
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-1.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset('asset/images/work-1.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-2.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset('asset/images/work-2.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-3.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset('asset/images/work-3.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                </div><!--work row-->
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-4.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset ('asset/images/work-4.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-5.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset('asset/images/work-5.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-6.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset('asset/images/work-6.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                </div><!--work row-->
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-7.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset('asset/images/work-7.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-8.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset('asset/images/work-8.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                    <div class="col-sm-4">
-                        <div class="entry-thumb portfolio-thumb">
-                            <div class="imgoverlay text-light">
-                                <a href="images/work-9.jpg" class="load-content prettyPhoto" data-gal="prettyPhoto[name_gallery]">
-                                    <img src="{{ asset('asset/images/work-9.jpg') }}" class="img-responsive" alt="">
-                                    <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo" style="margin-top: -11px;"><h6>Branding</h6></div></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--work col-->
-                </div><!--work row-->
-            </div>
-        </section><!--work section end-->
-
 
         <section id="blog" class="section-padding">
             <div class="container">
@@ -726,100 +502,46 @@
             </div>
             <div class="clearfix"></div>
         </section><!--news section end-->
-        <div class="cta">
+        {{-- <div class="cta">
             <div class="container text-center scroll-to">
                 <h1>Simple & clean one page template</h1>
                 <a href="#contact" class="btn btn-border-black btn-radius btn-lg">Purchase now</a>
             </div>
-        </div><!--call to action-->
-
+        </div><!--call to action--> --}}
 
         <section id="contact" class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <div class="row contact-details">
-                            <div class="col-sm-4 margin-bottom30 text-center">
-                                <i class="ion-ios-location-outline"></i>
-                                <h4>California, Usa</h4>
-                            </div>
-                            <div class="col-sm-4 margin-bottom30 text-center">
-                                <i class="ion-ios-email-outline"></i>
-                                <h4>support@Bonativo.com</h4>
-                            </div>
-                            <div class="col-sm-4 margin-bottom30 text-center">
-                                <i class="ion-ios-telephone-outline"></i>
-                                <h4>+01 - 4567 - 65678</h4>
-                            </div>
-                        </div><!--contact details-->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3">
-
-                        <form name="sentMessage" class="contact-form" method="post" novalidate>
-                            <h3>Drop us a line</h3>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 controls">
-
-                                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                            <p class="help-block"></p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 controls">
-
-                                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                            <p class="help-block"></p>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>
-                            <div class="row control-group">
-                                <div class="form-group col-xs-12  controls">
-
-                                    <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block"></p>
-                                </div>
-                            </div>
-                            <div class="row control-group">
-                                <div class="form-group col-xs-12 controls">
-
-                                    <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block"></p>
-                                </div>
-                            </div>
-                            <br>
-                            <div id="success"></div>
-                            <div class="row">
-                                <div class="form-group col-xs-12 text-right">
-                                    <button type="submit" class="btn btn-white btn-lg">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
-        </section><!--contact section end-->
-
         <footer class="footer">
-            <div class="container text-center">
-                <span class="alo">Bonativo</span>
-                <ul class="social list-inline">
-                    <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
-                </ul>
-                <span class="copyright">&copy; Copyright 2016. Bonativo Created By <a href="http://templatestock.co">Template Stock</a></span>
+            <div class="container ">
+                <h3 class="alo">Kontak</h3>
+                <br><br>
+                <div class="row gy-3">
+                    <div class="col-lg-6 col-md-6 d-flex">
+                      <i class="bi bi-geo-alt icon"></i>
+                      <div>
+                        <h4>Alamat</h4>
+                        <p>Jl. Wanyi RT 10 (Samping Rusunawa) <br>
+                            Kelurahan Sempaja Utara Kecamatan <br>
+                            Samarinda Utara Kota Samarinda 75119
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 footer-links d-flex">
+                      <i class="bi bi-telephone icon"></i>
+                      <div>
+                        <h4>Kontak Person</h4>
+                        <p>
+                          <strong>Telepon:</strong>0541-2521621<br>
+                          <strong>Email:</strong>kelurahansempajautara06@gmail.com<br>
+                          <strong>Fax:</strong>0541-2521621
+                        </p>
+                      </div>
+                    </div>
+                  </div><br><br>
+                <span class="copyright">&copy; Copyright 2016. Bonativo Created By <a href="http://templatestock.co">Template Stock</a>
+                </span>
             </div>
         </footer>
+        </section>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{{ asset('asset/js/jquery.min.js') }}" type="text/javascript"></script>
         <script src="{{ asset('asset/js/moderniz.min.js') }}" type="text/javascript"></script>
