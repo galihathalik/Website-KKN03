@@ -10,4 +10,8 @@ class DashboardController extends Controller
     public function index(){
         return view('master/index');
     }
+
+    public function strukturOrganisasi(){
+        return view('struktur');
+    }
 }

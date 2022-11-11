@@ -43,7 +43,7 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand alo" href="index.html">Samarinda</a>
+                    <a class="navbar-brand alo" href="/index">Samarinda</a>
                     {{-- <a class="navbar-brand alo" href="index.html"><img src="{{ asset('asset/images/logo-sht.png') }}" alt=""></a> --}}
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
@@ -51,7 +51,7 @@
                         <li class="active"><a href="#home">Home</a></li>
                         <li><a href="#about">Profil</a></li>
                         <li><a href="#services">Visi Misi</a></li>
-                        <li><a href="#struktur">Struktur Organisasi</a></li>
+                        <li><a href="/index/struktur-organisasi">Struktur Organisasi</a></li>
                         <li><a href="#blog">Berita</a></li>
 
                         {{-- <li><a href="post-single.html">Blog Post</a></li>                       --}}
@@ -274,9 +274,9 @@
                     </div>
                     <div class="row">
     
-                        <div class="col-sm-4 margin-bottom30">
+                        <div class="col-sm-2 margin-bottom30">
                             <div class="team-box">
-                                <img src="{{ asset('asset/images/foto/4.jpg') }}" class="img-responsive" alt="">
+                                <img src="{{ asset('asset/images/foto/foto profil/1.jpg') }}" class="img-responsive" alt="" width="25%">
     
                                 {{-- <ul class="social list-inline">
                                     <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
@@ -289,9 +289,9 @@
                                 <em>Lurah</em>
                             </div>
                         </div><!--team col end-->
-                        <div class="col-sm-4 margin-bottom30">
+                        <div class="col-sm-2 margin-bottom30">
                             <div class="team-box">
-                                <img src="{{ asset('asset/images/foto/5.jpg') }}" class="img-responsive" alt="">                       
+                                <img src="{{ asset('asset/images/foto/foto profil/2.jpg') }}" class="img-responsive" alt="" width="25%">                       
                                 {{-- <ul class="social list-inline">
                                     <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
                                     <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
@@ -303,9 +303,9 @@
                                 <em>Bendahara</em>
                             </div>
                         </div><!--team col end-->
-                        <div class="col-sm-4 margin-bottom30">
+                        <div class="col-sm-2 margin-bottom30">
                             <div class="team-box">
-                                <img src="{{ asset('asset/images/team-3.jpg') }}" class="img-responsive" alt="">                     
+                                <img src="{{ asset('asset/images/foto/foto profil/3.jpg') }}" class="img-responsive" alt="" width="25%">                     
                                 {{-- <ul class="social list-inline">
                                     <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
                                     <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
@@ -313,8 +313,50 @@
                                 </ul> --}}
                             </div>
                             <div class="team-desc">
-                                <h4>Daniel Smith</h4>
-                                <em>Manager</em>
+                                <h4>Saiful, S. I.Kom</h4>
+                                <em>Kasi Tata Pemerintahan</em>
+                            </div>
+                        </div><!--team col end-->
+                        <div class="col-sm-2 margin-bottom30">
+                            <div class="team-box">
+                                <img src="{{ asset('asset/images/foto/foto profil/4.jpg') }}" class="img-responsive" alt="" width="25%">                     
+                                {{-- <ul class="social list-inline">
+                                    <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
+                                </ul> --}}
+                            </div>
+                            <div class="team-desc">
+                                <h4>Mariyani, SE</h4>
+                                <em>Kasi Kesejahteraan dan Pemberdayaan Masyarakat</em>
+                            </div>
+                        </div><!--team col end-->
+                        <div class="col-sm-2 margin-bottom30">
+                            <div class="team-box">
+                                <img src="{{ asset('asset/images/foto/foto profil/5.jpg') }}" class="img-responsive" alt="" width="25%">                     
+                                {{-- <ul class="social list-inline">
+                                    <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
+                                </ul> --}}
+                            </div>
+                            <div class="team-desc">
+                                <h4>Saipul Anuar, SE</h4>
+                                <em>Kasi Ekonomi dan Pembangunan</em>
+                            </div>
+                        </div><!--team col end-->
+                        <div class="col-sm-2 margin-bottom30">
+                            <div class="team-box">
+                                <img src="{{ asset('asset/images/foto/foto profil/6.jpg') }}" class="img-responsive" alt="" width="25%">                     
+                                {{-- <ul class="social list-inline">
+                                    <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
+                                </ul> --}}
+                            </div>
+                            <div class="team-desc">
+                                <h4>Gede Putu Djunaya</h4>
+                                <em>Staff Sekertaris</em>
                             </div>
                         </div><!--team col end-->
                         
@@ -455,15 +497,7 @@
             <div class="news-wrapper  container-fluid">
                 <div class='row'>
                 <div class="col-sm-6 text-center no-padding">
-                    <a class="news-inner" href="post-single.html" style="background:url(images/bg-1.jpg) no-repeat; background-size: cover;">
-                        <div class="post-overlay"></div>
-                        <div class="post-preview-content">
-                            <h4 class="date">24 April, 2015</h4>
-                            <h2 class="title">Clean & Flat one page theme</h2>
-                            <span class="border-line"></span>
-                            <p class="author">By Maria</p>
-                        </div>
-                    </a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63835.71253359386!2d117.17167495!3d-0.3768205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df677d8447e19ff%3A0x7174ac147fd8de1e!2sSempaja%20Utara%2C%20Kec.%20Samarinda%20Utara%2C%20Kota%20Samarinda%2C%20Kalimantan%20Timur!5e0!3m2!1sid!2sid!4v1668158491210!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
                 </div><!--news col-->
                 <div class="col-sm-6 text-center no-padding">
                     <a class="news-inner" href="post-single.html" style="background:url(images/bg-2.jpg) no-repeat; background-size: cover;">
@@ -487,7 +521,7 @@
                         </div>
                     </a>
                 </div><!--news col-->
-                <div class="col-sm-6 text-center no-padding">
+                {{-- <div class="col-sm-6 text-center no-padding">
                     <a class="news-inner" href="post-single.html" style="background:url(images/bg-1.jpg) no-repeat; background-size: cover;">
                         <div class="post-overlay"></div>
                         <div class="post-preview-content">
@@ -497,7 +531,7 @@
                             <p class="author">By Maria</p>
                         </div>
                     </a>
-                </div><!--news col-->
+                </div><!--news col--> --}}
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -508,6 +542,26 @@
                 <a href="#contact" class="btn btn-border-black btn-radius btn-lg">Purchase now</a>
             </div>
         </div><!--call to action--> --}}
+
+        {{-- <div class="cta">
+            <div class="container text-center scroll-to">
+                <h1>Simple & clean one page template</h1>
+                <a href="#contact" class="btn btn-border-black btn-radius btn-lg">Purchase now</a>
+            </div>
+        </div><!--call to action--> --}}
+
+
+        {{-- <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 ">
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63835.71253359386!2d117.17167495!3d-0.3768205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df677d8447e19ff%3A0x7174ac147fd8de1e!2sSempaja%20Utara%2C%20Kec.%20Samarinda%20Utara%2C%20Kota%20Samarinda%2C%20Kalimantan%20Timur!5e0!3m2!1sid!2sid!4v1668158491210!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+                    </div>
+                </div>
+            </div>
+        </section> --}}
+        <!--contact section end-->{{-- col-sm-offset-3 --}}
 
         <section id="contact" class="section-padding">
         <footer class="footer">
@@ -537,7 +591,7 @@
                       </div>
                     </div>
                   </div><br><br>
-                <span class="copyright">&copy; Copyright 2016. Bonativo Created By <a href="http://templatestock.co">Template Stock</a>
+                <span class="copyright">&copy; Copyright 2022. KKN Tematik 03 Created By <a href="https://www.facebook.com/galih.athalik.9/">Galih Athalik Ghazy</a>
                 </span>
             </div>
         </footer>

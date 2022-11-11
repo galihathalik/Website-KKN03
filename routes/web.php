@@ -29,3 +29,4 @@ Route::get('/Home', 'HomeController@tambah');
 Route::get('/Home', 'HomeController@kurang');
 
 Route::get('/index', 'DashboardController@index');
+Route::get('/index/struktur-organisasi', 'DashboardController@strukturOrganisasi');
