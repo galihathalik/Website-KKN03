@@ -14,4 +14,20 @@ class DashboardController extends Controller
     public function strukturOrganisasi(){
         return view('struktur');
     }
+
+    public function dataUmum(){
+        return view('dataUmum');
+    }
+
+    //GAK KE PAKE
+    public function dataKewenangan(){
+        return view('dataUmum');
+    }
+
+    //GAK KEPAKE
+    public function dataKelembagaan(){
+        return view('dataUmum');
+    }
+
+    
 }

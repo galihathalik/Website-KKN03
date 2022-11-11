@@ -33,6 +33,7 @@
 
 
         <!-- Static navbar -->
+        
         <nav class="navbar navbar-default navbar-fixed-top before-color">
             <div class="container">
                 <div class="navbar-header">
@@ -47,20 +48,22 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right scroll-to">
                         <li ><a href="/index">Home</a></li>
-                        <li><a href="/index">Profil</a></li>
-                        <li><a href="/index">Visi Misi</a></li>
+                        <li><a href="/index#about">Profil</a></li>
+                        <li><a href="/index#services">Visi Misi</a></li>
                         <li class="active"><a href="/index/struktur-organisasi">Struktur Organisasi</a></li>
-                        <li><a href="#blog">Berita</a></li>
+                        <li><a href="/index#blog">Berita</a></li>
 
                         {{-- <li><a href="post-single.html">Blog Post</a></li>                       --}}
-                        <li class="dropdown">
+                        <li><a href="/index/data-umum">Data</a></li>  
+                        {{-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Data <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ asset('asset/typography.html') }}">Data Umum</a></li>
-                                <li><a href="{{ asset('asset/typography.html') }}">Data Kelembagaan</a></li>
+                                <li><a href="/index/data-umum">Data Umum</a></li>
+                                <li><a href="/index/data-kewenangan">Data Kewenangan</a></li>
+                                <li><a href="/index/data-kelembagaan">Data Kelembagaan</a></li>
                             </ul>
-                        </li> 
-                        <li><a href="/index">Kontak</a></li>
+                        </li>  --}}
+                        <li><a href="#contact">Kontak</a></li>
 
                     </ul>
                 </div><!--/.nav-collapse -->
@@ -85,7 +88,7 @@
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
-                            <a class="btn btn-white" href="#about">lihat</a>
+                            <a class="btn btn-white" href="/index#about">lihat</a>
                         </div> <!-- /tp-caption -->
                     </li>
                     <!-- SLIDE 2 -->
@@ -106,7 +109,7 @@
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
-                            <a class="btn btn-white" href="#about">lihat</a>
+                            <a class="btn btn-white" href="/index#about">lihat</a>
                         </div> <!-- /tp-caption -->
                     </li>
                     <!-- SLIDE 3 -->
@@ -275,6 +278,7 @@
             </div>
         </div>
 
+        <section id="contact" class="section-padding">
         <footer class="footer">
             <div class="container ">
                 <h3 class="alo">Kontak</h3>
@@ -306,6 +310,7 @@
                 </span>
             </div>
         </footer>
+    </section>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{{ asset('asset/js/jquery.min.js') }}" type="text/javascript"></script>
         <script src="{{ asset('asset/js/moderniz.min.js') }}" type="text/javascript"></script>

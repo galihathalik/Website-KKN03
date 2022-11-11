@@ -30,3 +30,9 @@ Route::get('/Home', 'HomeController@kurang');
 
 Route::get('/index', 'DashboardController@index');
 Route::get('/index/struktur-organisasi', 'DashboardController@strukturOrganisasi');
+Route::get('/index/data-umum', 'DashboardController@dataUmum');
+
+// GAK KEPAKE
+Route::get('/index/data-kewenangan', 'DashboardController@dataKewenangan');
+Route::get('/index/data-kelembagaan', 'DashboardController@dataKelembagaan');
+////

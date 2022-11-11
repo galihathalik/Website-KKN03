@@ -54,14 +54,15 @@
                         <li><a href="/index/struktur-organisasi">Struktur Organisasi</a></li>
                         <li><a href="#blog">Berita</a></li>
 
-                        {{-- <li><a href="post-single.html">Blog Post</a></li>                       --}}
-                        <li class="dropdown">
+                        <li><a href="/index/data-umum">Data</a></li>                      
+                        {{-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Data <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ asset('asset/typography.html') }}">Data Umum</a></li>
-                                <li><a href="{{ asset('asset/typography.html') }}">Data Kelembagaan</a></li>
+                                <li><a href="/index/data-umum">Data Umum</a></li>
+                                <li><a href="/index/data-kewenagan">Data Kewenangan</a></li>
+                                <li><a href="/index/data-kelembagaan">Data Kelembagaan</a></li>
                             </ul>
-                        </li> 
+                        </li>  --}}
                         <li><a href="#contact">Kontak</a></li>
 
                     </ul>
@@ -484,11 +485,11 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
                         <div class="section-title text-center">
-                            <h1> <span class="alo">Bonativo</span> News</h1> 
+                            <h1> <span class="alo"></span>Berita</h1> 
                             <span class="border-line"></span>
-                            <p class="lead subtitle-caption">
+                            {{-- <p class="lead subtitle-caption">
                                 Vivamus congue diam vitae tortor imperdiet congue.
-                            </p>
+                            </p> --}}
                         </div>
                     </div>
                 </div><!--heading row-->
