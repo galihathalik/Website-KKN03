@@ -51,7 +51,7 @@
                         <li><a href="/index#about">Profil</a></li>
                         <li><a href="/index#services">Visi Misi</a></li>
                         <li class="active"><a href="/index/struktur-organisasi">Struktur Organisasi</a></li>
-                        <li><a href="/index#blog">Berita</a></li>
+                        <li><a href="/index#blog">Info Lainnya</a></li>
 
                         {{-- <li><a href="post-single.html">Blog Post</a></li>                       --}}
                         <li><a href="/index/data-umum">Data</a></li>  
@@ -110,6 +110,46 @@
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
                             <a class="btn btn-white" href="/index#about">lihat</a>
+                        </div> <!-- /tp-caption -->
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('asset/images/foto/12.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                            Selamat Datang 
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            Profil Kelurahan Sempaja Utara
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            <a class="btn btn-white" href="#about">lihat</a>
+                        </div> <!-- /tp-caption -->
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('asset/images/foto/10.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                            Selamat Datang 
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            Profil Kelurahan Sempaja Utara
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            <a class="btn btn-white" href="#about">lihat</a>
                         </div> <!-- /tp-caption -->
                     </li>
                     <!-- SLIDE 3 -->

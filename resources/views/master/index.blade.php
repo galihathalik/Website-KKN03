@@ -52,7 +52,7 @@
                         <li><a href="#about">Profil</a></li>
                         <li><a href="#services">Visi Misi</a></li>
                         <li><a href="/index/struktur-organisasi">Struktur Organisasi</a></li>
-                        <li><a href="#blog">Berita</a></li>
+                        <li><a href="#blog">Info Lainnya</a></li>
 
                         <li><a href="/index/data-umum">Data</a></li>                      
                         {{-- <li class="dropdown">
@@ -85,7 +85,7 @@
                         </div> <!-- /tp-caption -->
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption slider-caption " data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
-                            Profil Kelurahan Sempaja Utara
+                           <strong>Profil Kelurahan Sempaja Utara</strong> 
                         </div> <!-- /tp-caption -->
 
                         <!-- LAYER NR. 3 -->
@@ -97,6 +97,45 @@
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                         <!-- MAIN IMAGE -->
                         <img src="{{ asset('asset/images/foto/3.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                            Selamat Datang 
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on" ><strong><p>Profil Kelurahan Sempaja Utara</p></strong> 
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            <a class="btn btn-white" href="#about">lihat</a>
+                        </div> <!-- /tp-caption -->
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('asset/images/foto/12.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                            Selamat Datang 
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            Profil Kelurahan Sempaja Utara
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            <a class="btn btn-white" href="#about">lihat</a>
+                        </div> <!-- /tp-caption -->
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('asset/images/foto/10.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
@@ -118,10 +157,6 @@
                 </ul>
             </div>
         </div><!--full width banner-->
-
-
-
-
 
         <section id="about" class="section-padding">
             <div class="container">
@@ -267,9 +302,9 @@
                             <div class="section-title text-center">
                                 <h1> <span class="alo">Struktur Organisasi</span></h1> 
                                 <span class="border-line"></span>
-                                <p class="lead subtitle-caption">
+                                {{-- <p class="lead subtitle-caption">
                                     Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa.
-                                </p>
+                                </p> --}}
                             </div>
                         </div>
                     </div>
@@ -285,7 +320,7 @@
                                     <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
                                 </ul> --}}
                             </div>
-                            <div class="team-desc">
+                            <div class="team-desc" align="center">
                                 <h4>DZULKIFLI, S.Sos</h4>
                                 <em>Lurah</em>
                             </div>
@@ -299,7 +334,7 @@
                                     <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
                                 </ul> --}}
                             </div>
-                            <div class="team-desc">
+                            <div class="team-desc"  align="center">
                                 <h4>HJ.ARBAYAH</h4>
                                 <em>Bendahara</em>
                             </div>
@@ -313,7 +348,7 @@
                                     <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
                                 </ul> --}}
                             </div>
-                            <div class="team-desc">
+                            <div class="team-desc"  align="center">
                                 <h4>Saiful, S. I.Kom</h4>
                                 <em>Kasi Tata Pemerintahan</em>
                             </div>
@@ -327,7 +362,7 @@
                                     <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
                                 </ul> --}}
                             </div>
-                            <div class="team-desc">
+                            <div class="team-desc"  align="center">
                                 <h4>Mariyani, SE</h4>
                                 <em>Kasi Kesejahteraan dan Pemberdayaan Masyarakat</em>
                             </div>
@@ -341,7 +376,7 @@
                                     <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
                                 </ul> --}}
                             </div>
-                            <div class="team-desc">
+                            <div class="team-desc"  align="center">
                                 <h4>Saipul Anuar, SE</h4>
                                 <em>Kasi Ekonomi dan Pembangunan</em>
                             </div>
@@ -355,7 +390,7 @@
                                     <li><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
                                 </ul> --}}
                             </div>
-                            <div class="team-desc">
+                            <div class="team-desc"  align="center">
                                 <h4>Gede Putu Djunaya</h4>
                                 <em>Staff Sekertaris</em>
                             </div>
@@ -500,28 +535,32 @@
                 <div class="col-sm-6 text-center no-padding">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63835.71253359386!2d117.17167495!3d-0.3768205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df677d8447e19ff%3A0x7174ac147fd8de1e!2sSempaja%20Utara%2C%20Kec.%20Samarinda%20Utara%2C%20Kota%20Samarinda%2C%20Kalimantan%20Timur!5e0!3m2!1sid!2sid!4v1668158491210!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
                 </div><!--news col-->
+
+                {{-- Berita --}}
                 <div class="col-sm-6 text-center no-padding">
-                    <a class="news-inner" href="post-single.html" style="background:url(images/bg-2.jpg) no-repeat; background-size: cover;">
+                    <a class="news-inner" href="https://kel-sempaja-utara.samarindakota.go.id/" style="background:url(images/bg-2.jpg) no-repeat; background-size: cover;">
                         <div class="post-overlay"></div>
                         <div class="post-preview-content">
-                            <h4 class="date">24 April, 2015</h4>
-                            <h2 class="title">Clean & Flat one page theme</h2>
+                            <h4 class="date">11 November, 2022</h4>
+                            <h2 class="title" >Kelurahan Utara </h2>
                             <span class="border-line"></span>
-                            <p class="author">By Maria</p>
+                            {{-- <p class="author">By Maria</p> --}}
                         </div>
                     </a>
                 </div><!--news col-->
                 <div class="col-sm-6 text-center no-padding">
-                    <a class="news-inner" href="post-single.html" style="background:url(images/bg-3.jpg) no-repeat; background-size: cover;">
+                    <a class="news-inner" href="https://samarindakota.go.id/balai-kota/kelurahan/sempaja-utara" style="background:url(images/bg-3.jpg) no-repeat; background-size: cover;">
                         <div class="post-overlay"></div>
                         <div class="post-preview-content">
-                            <h4 class="date">24 April, 2015</h4>
-                            <h2 class="title">Clean & Flat one page theme</h2>
+                            <h4 class="date">11 November, 2022</h4>
+                            <h2 class="title">Samarinda</h2>
                             <span class="border-line"></span>
-                            <p class="author">By Maria</p>
+                            {{-- <p class="author">By Maria</p> --}}
                         </div>
                     </a>
                 </div><!--news col-->
+
+                
                 {{-- <div class="col-sm-6 text-center no-padding">
                     <a class="news-inner" href="post-single.html" style="background:url(images/bg-1.jpg) no-repeat; background-size: cover;">
                         <div class="post-overlay"></div>

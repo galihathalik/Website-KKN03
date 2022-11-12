@@ -50,7 +50,7 @@
                         <li><a href="/index#about">Profil</a></li>
                         <li><a href="/index#services">Visi Misi</a></li>
                         <li ><a href="/index/struktur-organisasi">Struktur Organisasi</a></li>
-                        <li><a href="/index#blog">Berita</a></li>
+                        <li><a href="/index#blog">Info Lainnya</a></li>
                         <li class="active"><a href="/index/data-umum">Data</a></li>  
                         {{-- <li><a href="post-single.html">Blog Post</a></li>                       --}}
                         {{-- <li class="dropdown" class="active">
@@ -108,6 +108,46 @@
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
                             <a class="btn btn-white" href="/index#about">lihat</a>
+                        </div> <!-- /tp-caption -->
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('asset/images/foto/12.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                            Selamat Datang 
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            Profil Kelurahan Sempaja Utara
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            <a class="btn btn-white" href="#about">lihat</a>
+                        </div> <!-- /tp-caption -->
+                    </li>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('asset/images/foto/10.jpg') }}" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
+                            Selamat Datang 
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider-caption" data-x="center" data-y="center" data-voffset="40" data-speed="500" data-start="1800" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            Profil Kelurahan Sempaja Utara
+                        </div> <!-- /tp-caption -->
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider-button scroll-to" data-x="center" data-y="center" data-voffset="120" data-speed="500" data-start="2400" data-easing="Power4.easeInOut" data-captionhidden="on">
+                            <a class="btn btn-white" href="#about">lihat</a>
                         </div> <!-- /tp-caption -->
                     </li>
                     <!-- SLIDE 3 -->
@@ -352,9 +392,7 @@
                                                         <td colspan="3" width="40%">Pendapatan Perkapita</td>
                                                         <td>-</td>
                                                     </tr>
-    
                                                 </tbody>
-
                                             </table>
                                         </div>
                                     </div>
@@ -419,63 +457,244 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    
                                     <div class="tab-pane fade " id="data-kelembagaan">
                                         <table class="table table-sm table-striped">
                                             <tbody>
                                                 <tr>
-                                                    <td width="1">1.</td>
-                                                    <td colspan="2">Jumlah SK Lurah yang Telah Ditetapkan</td>
-                                                    <td>0 SK</td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="1">2.</td>
-                                                    <td colspan="2">Bidang yang diatur oleh SK</td>
-                                                    <td>0 Bidang</td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="1">3.</td>
-                                                    <td colspan="2">Urusan yang dilimpahkan Walikota</td>
-                                                    <td>- Urusan</td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="1">4.</td>
-                                                    <td colspan="2">Urusan Asli yang masih dilaksanakan Kelurahan</td>
-                                                    <td></td>
+                                                    <th width="1">1.</th>
+                                                    <th colspan="2">LPMK (Lembaga Pemberdayaan Masyarakat Kelurahan) atau Sebutan Lain</th>
+                                                    <th></th>
                                                 </tr>
                                                 <tr>
                                                     <td></td>
                                                     <td width="1">a.</td>
-                                                    <td>Jumlah Urusan</td>
-                                                    <td>- Urusan</td>
+                                                    <td>Jumlah Pengurus</td>
+                                                    <td>3 Orang</td>
                                                 </tr>
                                                 <tr>
                                                     <td></td>
-                                                    <td width="1">b.</td>
-                                                    <td>Jenis Urusan</td>
+                                                    <td>b.</td>
+                                                    <td>Jumlah Anggota</td>
+                                                    <td>10 Orang</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>c.</td>
+                                                    <td>Jumlah Kegiatan per Bulan</td>
+                                                    <td>4 Kegiatan</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>d.</td>
+                                                    <td>Jumlah Dana yang Dikelola</td>
+                                                    <td>Rp. 6,250,000,-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>2.</th>
+                                                    <th colspan="2">Lembaga Adat</th>
+                                                    <th>0</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>3.</th>
+                                                    <th colspan="2">TP PKK</th>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>a.</td>
+                                                    <td>Jumlah Pengurus</td>
+                                                    <td>0 Orang</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>b.</td>
+                                                    <td>Jumlah Anggota</td>
+                                                    <td>0 Orang</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>c.</td>
+                                                    <td>Jumlah Kegiatan per Bulan</td>
+                                                    <td>0 Kegiatan</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>c.</td>
+                                                    <td>Jumlah Buku Administrasi yang Dikelola</td>
+                                                    <td>0 Buku</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>d.</td>
+                                                    <td>Jumlah Dana yang Dikelola</td>
+                                                    <td>Rp. 0,-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>4.</th>
+                                                    <th colspan="2">BUMRT</th>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>a.</td>
+                                                    <td>Jumlah BUMRT</td>
+                                                    <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>b.</td>
+                                                    <td>Jenis BUMRT</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>c.</td>
+                                                    <td>Jumlah Modal Dasar</td>
+                                                    <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>d.</td>
+                                                    <td>Jumlah Dana yang Dikelola</td>
+                                                    <td>Rp. 0,-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>5.</th>
+                                                    <th colspan="2">Karang Taruna</th>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>a.</td>
+                                                    <td>Jenis Kegiatan</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>b.</td>
+                                                    <td>Jumlah Pengurus</td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>c.</td>
+                                                    <td>Jumlah Anggota</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>6.</th>
+                                                    <th colspan="2">RT / RW</th>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>a.</td>
+                                                    <td>Jumlah RT</td>
+                                                    <td>43 RT</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>b.</td>
+                                                    <td>Jumlah RW</td>
+                                                    <td> RW</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>c.</td>
+                                                    <td>Honorarium yang diterima RW dalam sebulan</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>d.</td>
+                                                    <td>Honorarium yang diterima RT dalam sebulan</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>7.</th>
+                                                    <th colspan="2">Ormas (Organisasi Masyarakat)</th>
+                                                    <th></th>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>a.</td>
+                                                    <td>LSM</td>
+                                                    <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>b.</td>
+                                                    <td>Ormas</td>
+                                                    <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>c.</td>
+                                                    <td>Parpol</td>
+                                                    <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>d.</td>
+                                                    <td>Keagamaan</td>
+                                                    <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>e.</td>
+                                                    <td>Lainnya</td>
                                                     <td>-</td>
                                                 </tr>
                                                 <tr>
-                                                    <td width="1">5.</td>
-                                                    <td colspan="2">Program yang diterima Kelurahan</td>
-                                                    <td></td>
+                                                    <th>8.</th>
+                                                    <th colspan="2">Koperasi</th>
+                                                    <th></th>
                                                 </tr>
                                                 <tr>
                                                     <td></td>
-                                                    <td width="1">a.</td>
-                                                    <td>Pemerintah Pusat</td>
-                                                    <td>0 Program</td>
+                                                    <td>1.</td>
+                                                    <td>Koperasi Simpan Pinjam</td>
+                                                    <td>0 Unit</td>
+                                                </tr>
+                                                <tr><td></td>
+                                                    <td>2.</td>
+                                                    <td>Koperasi Unit Desa</td>
+                                                    <td>0 Unit</td>
                                                 </tr>
                                                 <tr>
                                                     <td></td>
-                                                    <td width="1">b.</td>
-                                                    <td>Pemerintah Provinsi</td>
-                                                    <td>0 Program </td>
+                                                    <td>3.</td>
+                                                    <td>Lumbung Desa</td>
+                                                    <td>0 Unit</td>
                                                 </tr>
                                                 <tr>
                                                     <td></td>
-                                                    <td width="1">c.</td>
-                                                    <td>Pemerintah Kabupaten/Kota</td>
-                                                    <td>1 Program </td>
+                                                    <td>4.</td>
+                                                    <td>Kredit Cakdak Kulak</td>
+                                                    <td>0 Unit</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>5.</td>
+                                                    <td>Badan Badan Usaha</td>
+                                                    <td>0 Unit</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>6.</td>
+                                                    <td>Usaha Ekonomi Desa</td>
+                                                    <td>0 Unit</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>7.</td>
+                                                    <td>Lain-lain</td>
+                                                    <td>1 Unit</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>9.</th>
+                                                    <th colspan="2">Lembaga Kemasyarakatan Lainnya</th>
+                                                    <th>-</th>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -485,11 +704,11 @@
                             </div>
                         </div>
                     </div>
-                 <nav>
-                    <ul class="pager">
-                        <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>
-                        <li class="next"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
-                    </ul>
+                    <nav>
+                        <ul class="pager">
+                            <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                            <li class="next"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
+                        </ul>
                     </nav>
                 </div>
             </div>
@@ -534,10 +753,10 @@
         <script src="{{ asset('asset/js/jquery.easing.1.3.js') }}" type="text/javascript"></script>
         <!-- bootstrap js-->
         <script src="{{ asset('asset/bootstrap/js/bootstrap.min.js') }}" type="text/javascript"></script>
-        <script type="{{ asset('asset/text/javascript') }}" src="js/jquery.flexslider-min.js"></script>
-        <script type="{{ asset('asset/text/javascript') }}" src="js/parallax.min.js"></script> 
-        <script type="{{ asset('asset/text/javascript') }}" src="js/jquery.prettyPhoto.js"></script>	       
-        <script type="{{ asset('asset/text/javascript') }}" src="js/jqBootstrapValidation.js"></script>
+        <script type="text/javascript" src="{{ asset("asset/js/jquery.flexslider-min.js") }}"></script>
+        <script type="javascript" src="{{ asset("asset/js/parallax.min.js") }}"></script> 
+        <script type="text/javascript" src="{{ asset("asset/js/jquery.prettyPhoto.js")}}"></script>	       
+        <script type="text/javascript" src="{{ asset('asset/js/jqBootstrapValidation.js') }}"></script>
         <!--revolution slider scripts-->
         <script src="{{ asset('asset/rs-plugin/js/jquery.themepunch.tools.min.js') }}" type="text/javascript"></script>
         <script src="{{ asset('asset/rs-plugin/js/jquery.themepunch.revolution.min.js') }}" type="text/javascript"></script>  
