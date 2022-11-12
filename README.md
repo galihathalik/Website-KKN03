@@ -1,9 +1,10 @@
 Bookmark website terkait Link : 
-- https://samarindakota.go.id/balai-kota/kelurahan/sempaja-utara -----------------------
+- https://samarindakota.go.id/balai-kota/kelurahan/sempaja-utara ----------------------- Kurang Data Ke Lembagaan
 - https://www.niagahoster.co.id/blog/cara-membuat-website-desa/ ------------------------
 - https://bulakan.desa.id/ -------------------------------------------------------------
 - https://kelurahan-orooroombo.madiunkota.go.id/profil-kelurahan/ ----------------------
 - http://sumber.kelurahan.cirebonkab.go.id/ --------------------------------------------
+- https://kel-sempaja-utara.samarindakota.go.id/personil ------------------------------
 
 
 
